@@ -106,7 +106,11 @@ public class Array {
         //没有可插入的位置，改数据插入不到 数组中
         array.insert(4, 12);
 
-        //array.printAll();
+
+        array.delete(0);
+
+        System.out.println("删除后");
+        array.printAll();
     }
 
 }
